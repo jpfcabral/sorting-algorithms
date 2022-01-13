@@ -181,6 +181,11 @@ int main() {
     // Percorre algoritmos dentro de sort_algo
     for (int i_algo = 0; i_algo < 4; i_algo++) {
         printf("Algoritmo numero %d \n", i_algo);
+        printf("---------------------------------------------------------------------------------");
+        printf("\n       Vetor randomico    |        Vetor ordenado    |      Vetor decrescente   |\n");
+        printf("---------------------------------------------------------------------------------");
+        printf("\n  10e3  |  10e4  |  10e5  |  10e3  |  10e4  |  10e5  |  10e3  |  10e4  |  10e5  |\n");
+        printf("---------------------------------------------------------------------------------\n");
         for (int j = 0; j < 30; j++) {
             // Percorre tipo de vetor (randomico, ordenado, decrescente)
             for (int i_tipo = 0; i_tipo < 3; i_tipo++) {
